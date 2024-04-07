@@ -1,0 +1,35 @@
+
+.container-black {
+    font-family: Helvetica;
+    background-color: black;
+    color: seashell ;
+    opacity: 0.9;
+    text-align: center;
+  }
+  
+  .navbar {
+    height: 69px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: underline;
+    list-style-type: none;
+  }
+  
+  li {
+    margin: 5px;
+  }
